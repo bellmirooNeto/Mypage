@@ -1,0 +1,24 @@
+.Card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+.Card .Header {
+    display: flex;
+    justify-content: center;
+}
+
+.Card .Header .Title{
+    flex: 1;
+    padding: 5px;
+    font-size: 1rem;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.Card .Content{
+    padding: 20px;
+}

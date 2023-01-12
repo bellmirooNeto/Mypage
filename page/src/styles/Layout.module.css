@@ -1,0 +1,49 @@
+
+.Layout {
+    display: flex; 
+    font-size: 10px;
+    padding-top: 25px;
+    padding: 5px;
+}
+
+.Layout h1 {
+    text-align: center;
+}
+.Layout img {
+    height: 250px;
+    width: 200px;
+    
+}
+
+.Cabecario img{
+    position: left;
+    height: 90px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.Proj {
+    display: flex;
+    text-align: center;
+}
+
+.Conteudo {
+    width: 500px;
+    margin-left: 5px;
+}
+.footer {
+    background-color: #363636;
+    width: 120px;
+    height: 42px;
+    position: relative;
+    left: 484px;
+    bottom: 40px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}

@@ -1,0 +1,47 @@
+.Menu {
+    background-color:white;
+    height: 50px;
+    padding: 8px
+}
+
+.Menu a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #6497b1;
+    border-radius: 30px;
+    margin: 6px 10px;
+    background-color: #6497b1;
+    height: 20px;
+    width: 20px;
+    
+}
+.drop {
+    list-style:none;
+    
+}
+
+.drop li{
+    position:relative;
+    float:left;
+}
+
+.drop li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;}
+
+.drop li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    display:none;
+    }
+.drop li:hover ul, .menu li.over ul{display:block;}
+
+.drop .menu li ul li{
+    display:block;
+    width:150px;
+    }
